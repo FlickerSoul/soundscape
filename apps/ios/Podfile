@@ -8,4 +8,5 @@ target 'Soundscape' do
     # When `pod install` is called, the 'cocoapods-patch' plugin
     # will patches the pod with the diff file in `/patches`.
     pod "iOS-GPX-Framework", '0.0.2'
+    pod 'TBXML', podspec: 'https://gist.githubusercontent.com/FlickerSoul/fe931f9960d5a8a271c1d283fa8a645f/raw/32fe69a687cb5c4f555aa99876047ddfbc0c6351/TBXML.podspec'
 end
